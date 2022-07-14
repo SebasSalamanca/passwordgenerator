@@ -16,7 +16,7 @@ def generar_contrasena():
     caracteres = mayusculas + minusculas + simbolos + numeros 
 
     contrasena = []
-    for i in range(12):
+    for i in range(10):
         caracter_random = random.choice(caracteres)   ## with choice I choose a character from the list caracteres
         contrasena.append(caracter_random)
     contrasena = ''.join(contrasena)                  ## convert a list to string 
