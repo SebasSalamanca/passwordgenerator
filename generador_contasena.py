@@ -14,7 +14,7 @@ def generar_contrasena():
     '.', '>', '<', '~', '°', '^', '&', '$', '#', '"']
 
     caracteres = mayusculas + minusculas + simbolos + numeros 
-
+    print('Hola Mundo!')
     contrasena = []
     for i in range(10):
         caracter_random = random.choice(caracteres)   ## with choice I choose a character from the list caracteres
