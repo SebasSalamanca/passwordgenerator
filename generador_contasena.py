@@ -25,7 +25,7 @@ def generar_contrasena():
 def run():
     contrasena = generar_contrasena()
     print('Tu nueva contrasena es: ' + contrasena)
-
+    print('Recuerda no decirsela a nadie')
 if __name__ == '__main__':
     run()
 
